@@ -1,0 +1,26 @@
+.bg-dark{
+	background-color: #04204e !important;
+}
+.navbar-brand{
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 25px;
+}
+.nav-dark .navbar-nav .nav-item{
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-item{
+	margin: 0 15px;
+}
+.d-block{
+	width: 100px;
+	height: 100vh;
+}
+.carousel-caption h5{
+	color: blue;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: monospace;
+}
