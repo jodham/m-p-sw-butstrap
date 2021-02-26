@@ -24,3 +24,20 @@
 	font-size: 20px;
 	font-family: monospace;
 }
+/*about us style*/
+.aboutus{
+	padding: 55px 0;
+	text-align: center;
+	background-color: #04204a1a;
+}
+.aboutus h1{
+	font-size: 45px;
+	margin-bottom: 55px;
+	color: #04204a;
+}
+.aboutus p{
+	font-size: 18px;
+	color: #04204a;
+}
+
+/*about us style*/
