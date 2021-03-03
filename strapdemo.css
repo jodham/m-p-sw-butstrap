@@ -24,6 +24,9 @@
 	font-size: 20px;
 	font-family: monospace;
 }
+.carousel-caption p{
+	color: #04204a;
+}
 /*about us style*/
 .aboutus{
 	padding: 55px 0;
@@ -41,3 +44,45 @@
 }
 
 /*about us style*/
+/*services Style*/
+.services{
+	padding: 55px 0;
+	text-align: center;
+	background-color: #04204a;
+}
+.services h1{
+	font-size: 45px;
+	margin-bottom: 55px;
+	color: #fff;
+}
+.services .card{
+    border: 1px solid #0062cc;
+}
+.services .card-body{
+	padding: 1.25rem .9rem;
+	background-color: #061a37;
+}
+.services .card-body .card-title{
+	color: #fff;
+	font-weight: 700;
+
+}
+.services .card-body .card-text{
+	color: #fff;
+}
+.services .btn-primary{
+	color: #fff;
+	background-color: #04204a;
+    border-color: #0062cc;
+}
+.services .btn-primary{
+	color: #fff;
+	background-color: #04204a;
+	border-color: #0062cc;
+}
+.services .btn-primary:hover{
+	color: #fff;
+	background-color: #0062cc;
+	border-color: #0062cc;
+}
+/*services Style*/
