@@ -73,11 +73,6 @@
 .services .btn-primary{
 	color: #fff;
 	background-color: #04204a;
-    border-color: #0062cc;
-}
-.services .btn-primary{
-	color: #fff;
-	background-color: #04204a;
 	border-color: #0062cc;
 }
 .services .btn-primary:hover{
@@ -90,21 +85,37 @@
 .projects{
 	padding: 55px 0;
 	text-align: center;
-	background-color: #04204a1a;
+	background-color: #03193B;
 }
 .projects h1{
 	font-size: 45px;
 	margin-bottom: 55px;
-	color: #04204a;
+	color: #fff;
 }
-.projects .figure{
-	margin-top: 28px;
+.projects .card{
+    border: 1px solid #0062cc;
 }
-.figure-caption{
-	font-size: 20px;
-	font-weight: 600;
-	margin-top: 5px;
-	color: #04204a;
+.projects .card-body{
+	padding: 1.25rem .9rem;
+	background-color: #061a37;
+}
+.projects .card-body .card-title{
+	color: #fff;
+	font-weight: 700;
+
+}
+.projects .card-body .card-text{
+	color: #fff;
+}
+.projects .btn-primary{
+	color: #fff;
+	background-color: #04204a;
+	border-color: #0062cc;
+}
+.projects .btn-primary:hover{
+	color: #fff;
+	background-color: #0062cc;
+	border-color: #0062cc;
 }
 /*Projects Style*/
 /*footer style*/
