@@ -7,233 +7,489 @@
 	<link rel="stylesheet" type="text/css" href="sheets/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-				<!----------------navbar start------------->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body class="bg-light">
+<!----------------navbar start------------->
+<nav class="navbar navbar-light fixed-top bg-light shadow-lg">
   <div class="container">
-  <a class="navbar-brand" href="#">Jodham</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <!---------col-auto start---------------->
-  <div class="col-auto">
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Me</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">Skills</a>
-      </li>
- 
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Projects</a>
-      </li>
-    </ul>
-  </div>
-</div>
-  <!---------col-auto end---------------->
-  </div>
+  	<a class="navbar-brand text-danger" href="#">Joe</a>
+  	<div class="dropdown">
+	  	<button class="btn btn-secondary btn-danger px-3" type="button" id="
+	  	dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+	  		drop
+	  	</button>
+	  	<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+	  		<li> <a class="dropdown-item" href="#">Home</a></li>
+	  		<li> <a class="dropdown-item" href="#">Home</a></li>
+	  		<li> <a class="dropdown-item" href="#">Home</a></li>
+	  		<li> <a class="dropdown-item" href="#">Home</a></li>
+	  	</ul>
+  	</div>
+ 	</div>
 </nav>
 				<!----------------navbar end------------->
 
-				<!----------------home start------------->
-<div class="home">
-		<div class="container-fluid">
-		      <div class="row">
-				  <div class="col-xs-6">
-				    <div class="card">
-				      <div class="card-body">
-				       <figure class="figure">
-						  <img src="image/jod.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-						  <figcaption class="figure-caption">jodham wanjala</figcaption>
-					   </figure>
-				        
-				      </div>
+<!------------------------home section start----------------------->
+<section class="home">
+	<div class="container">
+		<div class="row min-vh-100 align-items-center">
+			<div class="col-md-6 mt-5 mt-md-0">
+				<div class="home-img text-center">
+					<img src="image/joe.png" class="rounded-circle mw-100" alt="profile-img">
+				</div>
+			</div>
+			<div class="col-md-6 mt-5 mt-md-0 order-md-first">
+				<div class="home-text">
+					<p class="text-muted mb-1">hello I'm</p>
+					<h1 class="text-danger text-uppercase">A web designer</h1>
+					<h2>Jodham</h2>
+					<p class="mt-4">hi am jodham hi am jodham hi am jodham hi am jodham hi am jodham 
+					am jodham hi am jodham am jodham hi am jodham am jodham hi am jodham</p>
+					<a href="#portfolio" class="btn btn-danger px-3 mt-3">My work</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!------------------------home section end------------------------->
+<!------------------------about section end------------------------->
+<section class="about" id="about">
+	<div class="container py-4">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 ">
+				<div class="section-title text-center">
+					<h2 class="fw-bold mb-5">About me</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<div class="about-text">
+					<h3 class="mb-3">hi am jodham hi am jodham hi am jodham hi am jodham</h3>
+					<p class="mb-3 text-muted">hi am jodham hi am jodham hi am jodham hi am jodham
+						hi am jodham hi am jodham hi am jodham hi am jodham
+					</p>
+			</div>
+
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<div class="fact-item">
+						<h4>100</h4>
+						<p>projects completed</p>
 					</div>
-				 </div>
-			  <div class="col-xs-6">
-			    <div class="card">
-			      <div class="card-body">
-			        <center><h5 class="card-title">Jodham.me</h5></center><br><br><br>
-                    <label>HELLO</label><br><br>
-			        <p class="card-text">I'm Jodham<br><br>
-			        	<span>A web developer<br>Web designer<br>Software Developer</span></p>
+				</div>
 
-			        <a href="#" class="btn btn-primary">View</a>
-			      </div>
-			    </div>
-			  </div>
-		     </div>
+				<div class="col-sm-4">
+					<div class="fact-item">
+						<h4>90</h4>
+						<p>Happy clients</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="fact-item">
+						<h4>95</h4>
+						<p>Positive reviews</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-12 d-flex align-items-center">
+					<a href="#" class="btn btn-danger mr-5">Download Cv</a>
+					<div class="social-links">
+						<a href="#" class="text-dark mr-2"><i class="">fb</i></a>
+						<a href="#" class="text-dark mr-2"><i class="">tw</i></a>
+						<a href="#" class="text-dark mr-2"><i class="">in</i></a>
+						<a href="#" class="text-dark mr-2"><i class="">ln</i></a>
+					</div>
+				</div>
+			</div>
 		</div>
-</div>
-				<!----------------home end------------->
 
-				<!-------------------about me start---------->
-<div class="aboutus">
+		<div class="col-md-6 mt-3">
+			<div class="skill-item mb-4">
+				<h5>Html</h5>
+				<div class="progress" style="height: 5px;">
+					<div class="progress-bar" role="progressbar" style="width: 50%;"
+					aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+					</div>
+				</div>
+			</div>
+
+			<div class="skill-item mb-4">
+				<h5>Css</h5>
+				<div class="progress" style="height: 5px;">
+					<div class="progress-bar" role="progressbar" style="width: 60%;"
+					aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+					</div>
+				</div>
+			</div>
+
+			<div class="skill-item mb-4">
+				<h5>bootstrap</h5>
+				<div class="progress" style="height: 5px;">
+					<div class="progress-bar" role="progressbar" style="width: 80%;"
+					aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+					</div>
+				</div>
+			</div>
+
+			<div class="skill-item mb-4">
+				<h5>Python</h5>
+				<div class="progress" style="height: 5px;">
+					<div class="progress-bar" role="progressbar" style="width: 60%;"
+					aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+					</div>
+				</div>
+			</div>
+
+			<div class="skill-item mb-4">
+				<h5>Django</h5>
+				<div class="progress" style="height: 5px;">
+					<div class="progress-bar" role="progressbar" style="width: 80%;"
+					aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+					</div>
+				</div>
+			</div>
+
+			<div class="skill-item mb-4">
+				<h5>Javascript</h5>
+				<div class="progress" style="height: 5px;">
+					<div class="progress-bar" role="progressbar" style="width: 40%;"
+					aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</section>
+<!------------------------about section end------------------------->
+
+<!------------------------services section end------------------------->
+<section class="services" id="services">
 	<div class="container">
-		<h1>about us</h1>
+		<div class="row justify-content-center">
+			<div class="col-lg-8 ">
+				<div class="section-title text-center">
+					<h2 class="fw-bold mb-5">What I Do</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-6 col-lg-4 mb-4">
+				<div class="card shadow-lg p-4 rounded bg-white">
+					<div class="icon text-danger">
+						./>
+					</div>
+						<h5>Web development</h5>
+						<p>hi am jodham hi am jodham hi am jodham hi am jodham</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-4 mb-4">
+				<div class="card shadow-lg p-4 rounded bg-white">
+					<div class="icon text-danger">
+						./>
+					</div>
+						<h5>Power Point</h5>
+						<p>hi am jodham hi am jodham hi am jodham hi am jodham</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-4 mb-4">
+				<div class="card shadow-lg p-4 rounded bg-white">
+					<div class="icon text-danger">
+						./>
+					</div>
+						<h5>Creative design</h5>
+						<p>hi am jodham hi am jodham hi am jodham hi am jodham</p>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	
+</section>
+<!------------------------services section end------------------------->
+<!------------------------portfolio section start------------------------->
+<div class="portfolio bg-white py-5" id="portfolio">
+	<div class="container py-4">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section-title text-center">
+					<h2>Latest Projects</h2>
+				</div>
+			</div>
+
 		<div class="row">
-			<div class="col-sm-6">
-				<p>hi am jodham hi am jodham hi am jodham hi am jodham hi am jodham 
-				am jodham hi am jodham am jodham hi am jodham am jodham hi am jodham
-			am jodham hi am jodham am jodham hi am jodham</p>
-							<p>hi am jodham hi am jodham hi am jodham hi am jodham hi am jodham 
-				am jodham hi am jodham am jodham hi am jodham am jodham hi am jodham
-			am jodham hi am jodham am jodham hi am jodham</p>
+			<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/service1.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+					<h5 class="my-2">E-Commerce</h5>
+					<p class="mb-4"><a class="text-danger text-decoration-none" href="#">Live demo</a></p>
+				</div>
 			</div>
-			<div class="col-sm-6">
-				<p>hi am jodham hi am jodham hi am jodham hi am jodham hi am jodham 
-				am jodham hi am jodham am jodham hi am jodham am jodham hi am jodham
-			am jodham hi am jodham am jodham hi am jodham</p>
-							<p>hi am jodham hi am jodham hi am jodham hi am jodham hi am jodham 
-				am jodham hi am jodham am jodham hi am jodham am jodham hi am jodham
-			am jodham hi am jodham am jodham hi am jodham</p>
+		
+
+		
+			<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/service1.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+					<h5 class="my-2">E-learning</h5>
+					<p class="mb-4"><a class="text-danger text-decoration-none" href="#">Live demo</a></p>
+				</div>
+			</div>
+		
+
+	
+			<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/service1.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+					<h5 class="my-2">Car Hire</h5>
+					<p class="mb-4"><a class="text-danger text-decoration-none" href="#">Live demo</a></p>
+				</div>
+			</div>
+		
+
+		<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/service1.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+					<h5 class="my-2"> Baby Day-Care</h5>
+					<p class="mb-4"><a class="text-danger text-decoration-none" href="#">Live demo</a></p>
+				</div>
+			</div>
+		
+
+		<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/service1.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+					<h5 class="my-2"> App landing Page</h5>
+					<p class="mb-4"><a class="text-danger text-decoration-none" href="#">Live demo</a></p>
+				</div>
+			</div>
+		
+
+		<div class="col-md-6 col-lg-4">
+				<div class="portfolio-item">
+					<img src="image/service1.jpg" class="w-100 img-thumbnail" alt="portfolio-item">
+					<h5 class="my-2">Profile Card bootstrap</h5>
+					<p class="mb-4"><a class="text-danger text-decoration-none" href="#">Live demo</a></p>
+				</div>
+			</div>
+	</div>
+
+	</div>
+</div>
+<!------------------x------portfolio section end----------x--------------->
+<!------------------------testimonials section end-------------------------->
+<section class="testimonials py-5">
+	<div class="container py-4">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section-title text-center">
+					<h2>Testimonials</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="row justify-content-center shadow-lg">
+			<div class="col-lg-8 col-xl-7">
+				<div class="carousel slide" id="carousel1" data-bs-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></li>
+						<li data-bs-target="#carousel1" data-bs-slide-to="1" class="active"></li>
+						<li data-bs-target="#carousel1" data-bs-slide-to="2" class="active"></li>
+					</ol>
+				<div class="carousel-inner">
+				<!---------------------testi-item start------------------>
+
+				<div class="testi-item carousel-item active bg-white shadow-sm rounded p-4">
+					<div class="testi-author-info d-flex align-items-center">
+						<img src="image/joe 2.png" class="w-10 img-thumbnail rounded-circle" alt="author img">
+						<div class="author ml-2">
+							<h4 class="mb-1">Jodham Wanjala</h4>
+							<p class="text-muted m-0">CEO</p>
+						</div>
+					</div>
+					<p class="text-muted mb-3">manager at self-employed</p>
+					<div class="ratings text-danger">
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+					</div>
+				</div>
+
+				<div class="testi-item carousel-item active bg-white shadow-sm rounded p-4">
+					<div class="testi-author-info d-flex align-items-center">
+						<img src="image/joe 2.png" class="w-10 img-thumbnail rounded-circle" alt="author img">
+						<div class="author ml-2">
+							<h4 class="mb-1">Jodham Wanjala</h4>
+							<p class="text-muted m-0">CEO</p>
+						</div>
+					</div>
+					<p class="text-muted mb-3">manager at self-employed</p>
+					<div class="ratings text-danger">
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+					</div>
+				</div>
+
+				<div class="testi-item carousel-item active bg-white shadow-sm rounded p-4">
+					<div class="testi-author-info d-flex align-items-center">
+						<img src="image/joe 2.png" class="w-10 img-thumbnail rounded-circle" alt="author img">
+						<div class="author ml-2">
+							<h4 class="mb-1">Jodham Wanjala</h4>
+							<p class="text-muted m-0">CEO</p>
+						</div>
+					</div>
+					<p class="text-muted mb-3">manager at self-employed</p>
+					<div class="ratings text-danger">
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+					</div>
+				</div>
+
+
+				<div class="testi-item carousel-item active bg-white shadow-sm rounded p-4">
+					<div class="testi-author-info d-flex align-items-center">
+						<img src="image/joe 2.png" class="w-10 img-thumbnail rounded-circle" alt="author img">
+						<div class="author ml-2">
+							<h4 class="mb-1">Jodham Wanjala</h4>
+							<p class="text-muted m-0">CEO</p>
+						</div>
+					</div>
+					<p class="text-muted mb-3">manager at self-employed</p>
+					<div class="ratings text-danger">
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+						<i class="fas fa-star">*</i>
+					</div>
+				</div>
+				<!---------------------testi-item end------------------>
+			</div>
+			</div>
 			</div>
 		</div>
 	</div>
-</div>
-				<!-------------------about me end---------->
-				<!-------------------services start---------->
-<div class="services">
+</section>
+<!------------------x------testimonials section end----------x--------------->
+<!------------------------------contact section end-------------------------->
+<section class="contact py-5" id="contact">
 	<div class="container">
-		<h1>Services</h1>
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="section-title text-center">
+					<h2 class="mb-5">Contact Me</h2>
+				</div>
+			</div>
+		</div>
+
 		<div class="row">
+			<div class="col-md-5 mb-3">
+				<div class="contact-item d-flex">
+					<div class="icon text-danger">
+						icon
+					</div>
+					<div class="text">
+						<h4>Email</h4>
+						<p class="text-muted">example@gmail.com</p>
+					</div>
+				</div>
+			
 
-			<div class="col-sm-6">
-				<div class="card">
-				  <img class="card-img-top" src="image/service1.jpg" alt="Service- 1 Image">
-				  <div class="card-body">
-				    <h5 class="card-title">LINKS</h5>
-                    <p class="card-text">hi am jodham hi am jodham hi am jodham hi am jodham hi am jodham 
-				am jodham hi am jodham am jodham hi am jodham am jodham hi am jodham content.</p>
-				    <a href="#" class="btn btn-primary">click for more</a>
-				  </div>
+		
+				<div class="contact-item d-flex">
+					<div class="icon text-danger">
+						icon
+					</div>
+					<div class="text">
+						<h4>phone</h4>
+						<p class="text-muted">+25491754184</p>
+					</div>
 				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="card">
-				  <img class="card-img-top" src="image/service1.jpg" alt="Service- 1 Image">
-				  <div class="card-body">
-				    <h5 class="card-title">Jodham</h5>
-				    <p class="card-text">hi am jodham hi am jodham hi am jodham hi am jodham hi am jodham 
-				am jodham hi am jodham am jodham hi am jodham am jodham hi am jodham content.</p>
-				    <a href="#" class="btn btn-primary">click for more</a>
-				  </div>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="card">
-				  <img class="card-img-top" src="image/service1.jpg" alt="Service-3 Image">
-				  <div class="card-body">
-				    <h5 class="card-title">Jodham</h5>
-				    <p class="card-text">hi am jodham hi am jodham hi am jodham hi am jodham hi am jodham 
-				am jodham hi am jodham am jodham hi am jodham am jodham hi am jodham</p>
-				    <a href="#" class="btn btn-primary">click for more</a>
-				  </div>
+		
+
+			
+				<div class="contact-item d-flex">
+					<div class="icon text-danger">
+						icon
+					</div>
+					<div class="text">
+						<h4>location</h4>
+						<p class="text-muted">Western, Bungoma</p>
+					</div>
 				</div>
 			</div>
 
-		</div>
-	</div>
-</div>
-				<!-------------------services end---------->
-                <!-------------------projects start---------->
-<div class="projects">
-	<div class="container">
-		<h1>Projects</h1>
-		<div class="row">
+			<div class="col-md-7">
+				<div class="contact-form">
+					<form>
+						<div class="row">
+							<div class="col-lg-6 mb-4">
+								<input type="text" placeholder="your name"
+								class="form-control form-control-lg fs-6 border-0 shadow-sm">
+							</div>
+							<div class="col-lg-6 mb-4">
+								<input type="text" placeholder="your email"
+								class="form-control form-control-lg fs-6 border-0 shadow-sm">
+							</div>
+						</div>
+					<div class="row">
+						<div class="col-lg-12 mb-4">
+							<input type="text" placeholder="subject"
+								class="form-control form-control-lg fs-6 border-0 shadow-sm">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 mb-4">
+							<textarea rows="5" placeholder="your message"
+								class="form-control form-control-lg fs-6 border-0 shadow-sm">
+							</textarea>
+						</div>
+					</div>
 
-			<div class="col-sm-6">
-				<div class="card">
-				  <img class="card-img-top" src="image/service1.jpg" alt="Service- 1 Image">
-				  <div class="card-body">
-				    <h5 class="card-title">E-Commerce</h5>
-                    <p class="card-text">An online platform where you can purchase commodities, this platform
-                    enables user registration, online payment and is developed in HTML, CSS, BOOTSTRAP, Django Python as the frameworks
-					 it is more responsive thus allowing view from multiple devices.
-                    <br>
-                    <span><i><b>Not yet complete</b></i></span>
-                    </p>
-				  </div>
-				  <a href="#" class="btn btn-primary">View Project</a>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="card">
-				  <img class="card-img-top" src="image/service1.jpg" alt="Service- 1 Image">
-				  <div class="card-body">
-				    <h5 class="card-title">Project Name</h5>
-				    <p class="card-text">hi am jodham hi am jodham hi am jodham hi am jodham hi am jodham 
-				am jodham hi am jodham am jodham hi am jodham am jodham hi am jodham content.</p>
-				  </div>
-				  <a href="#" class="btn btn-primary">View Project</a>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="card">
-				  <img class="card-img-top" src="image/service1.jpg" alt="Service-3 Image">
-				  <div class="card-body">
-				    <h5 class="card-title">Project Name</h5>
-				    <p class="card-text">hi am jodham hi am jodham hi am jodham hi am jodham hi am jodham 
-				am jodham hi am jodham am jodham hi am jodham am jodham hi am jodham</p>
-				  </div>
-				  <a href="#" class="btn btn-primary">View Project</a>
+					<div class="row">
+						<div class="col-lg-12 mb-4">
+							<button type="submit" class="btn btn-danger px-3" >Send</button>
+						</div>
+					</div>
+
+					</form>
 				</div>
 			</div>
 
 		</div>
 	</div>
-</div>
-	</div>
-</div>
-
-                <!-------------------projects end---------->
-                <!-------------------footer start---------->
-<div class="footer">
+	
+</section>
+<!------------------x------contact section end---------------x--------------->
+<!------------------------footer section end------------------------------>
+<footer class="footer border-top py-3">
 	<div class="container">
 		<div class="row">
-			<div class="col">
-				<h5>Links</h5>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About me</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Services</a></li>
-				</ul>
-			</div>
-
-			<div class="col">
-				<h5>Our Services</h5>
-				<ul>
-					<li><a href="#">Make</a></li>
-					<li><a href="#">Amazing</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Services</a></li>
-				</ul>
-			</div>
-
-			<div class="col">
-				<h5>Address</h5>
-				<p>I am an amazing web designer and developer</p>
-				<p>+254791754184</p>
-				<p>wanjalajodham@gmail.com</p>
+			<div class="col-lg-12">
+				<p class="m-0 text-center text-muted">&copy; 2022 Wanjala</p>
 			</div>
 		</div>
 	</div>
-</div>                
-                <!-------------------footer end------------>
-                <!-------------------copyright start------------>
-<div class="copyright">
-	<div class="container">
-		<p>&copy; Jodham 2020 | all Rights Reserved</p>
-	</div>
-</div>   
-<!-----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   ----->token          
-                <!-------------------copyright end------------>
+	
+</footer>
+<!------------------x------footer section end---------------x--------------->
+              
 <script type="text/javascript" src="sheets/jquery-3.2.1.slim.min.js"></script>
 <script type="text/javascript" src="sheets/popper.min.js"></script>
 <script type="text/javascript" src="sheets/bootstrap.min.js"></script>
